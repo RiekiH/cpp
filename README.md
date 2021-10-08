@@ -1,2 +1,1 @@
-#======= SEMESTER 1 =======
-#Algoritma Dan Pemprograman
+# Algoritma Dan Pemprograman - SEMESTER 1
