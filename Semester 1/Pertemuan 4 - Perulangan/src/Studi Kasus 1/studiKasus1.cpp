@@ -3,22 +3,16 @@ using namespace std;
 
 int main()
 {
-    //* Switch case using integer (number)
+    //* ========== Switch case using integer (Menggunakan Angka) ==========
+
     /* int days;
-    cout << "1. Senin"
-         << "\n";
-    cout << "2. Selasa"
-         << "\n";
-    cout << "3. Rabu"
-         << "\n";
-    cout << "4. Kamis"
-         << "\n";
-    cout << "5. Jumat"
-         << "\n";
-    cout << "6. Sabtu"
-         << "\n";
-    cout << "7. Minggu"
-         << "\n\n";
+    cout << "1. Senin\n";
+    cout << "2. Selasa\n";
+    cout << "3. Rabu\n";
+    cout << "4. Kamis\n";
+    cout << "5. Jumat\n";
+    cout << "6. Sabtu"\n;
+    cout << "7. Minggu\n\n";
 
     cout << "Pilih Hari Menggunakan Angka : ";
     cin >> days;
@@ -59,7 +53,8 @@ int main()
         break;
     } */
 
-    //* If else if (Days Name)
+    //* If else if (Menggunakan nama hari)
+
     string days;
 
     cout << "1. Senin \n";
