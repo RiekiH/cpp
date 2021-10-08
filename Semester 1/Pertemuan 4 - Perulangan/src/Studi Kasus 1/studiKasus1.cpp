@@ -5,13 +5,13 @@ int main()
 {
     //* ========== Switch case using integer (Menggunakan Angka) ==========
 
-    /* int days;
+    /*     int days;
     cout << "1. Senin\n";
     cout << "2. Selasa\n";
     cout << "3. Rabu\n";
     cout << "4. Kamis\n";
     cout << "5. Jumat\n";
-    cout << "6. Sabtu"\n;
+    cout << "6. Sabtu\n";
     cout << "7. Minggu\n\n";
 
     cout << "Pilih Hari Menggunakan Angka : ";
@@ -20,40 +20,32 @@ int main()
     switch (days)
     {
     case 1:
-        cout << "Selasa & Rabu - Peringatan masuk jam 07:00"
-             << "\n";
+        cout << "\nSelasa & Rabu - Peringatan masuk jam 07:00\n";
         break;
     case 2:
-        cout << "Rabu & Kamis - Peringatan masuk jam 07:00"
-             << "\n";
+        cout << "\nRabu & Kamis - Peringatan masuk jam 07:00\n";
         break;
     case 3:
-        cout << "Kamis & Jumat - Peringatan masuk jam 07:00"
-             << "\n";
+        cout << "\nKamis & Jumat - Peringatan masuk jam 07:00\n";
         break;
     case 4:
-        cout << "Jumat & Sabtu - Peringatan masuk jam 07:00"
-             << "\n";
+        cout << "\nJumat & Sabtu - Peringatan masuk jam 07:00\n";
         break;
     case 5:
-        cout << "Sabtu & Minggu - LANJUTKAN TIDUR MU!!!"
-             << "\n";
+        cout << "\nSabtu & Minggu - LANJUTKAN TIDUR MU!!!\n";
         break;
     case 6:
-        cout << "Minggu & Senin - Peringatan masuk jam 07:00"
-             << "\n";
+        cout << "\nMinggu & Senin - Peringatan masuk jam 07:00\n";
         break;
     case 7:
-        cout << "Senin & Selasa - Peringatan masuk jam 07:00"
-             << "\n";
+        cout << "\nSenin & Selasa - Peringatan masuk jam 07:00\n";
         break;
     default:
-        cout << "Error : HARI TIDAK TERSEDIA!!!"
-             << "\n";
+        cout << "\nError : HARI TIDAK TERSEDIA!!!\n";
         break;
     } */
 
-    //* If else if (Menggunakan nama hari)
+    //* ========== If else if (Menggunakan nama hari) ==========
 
     string days;
 
