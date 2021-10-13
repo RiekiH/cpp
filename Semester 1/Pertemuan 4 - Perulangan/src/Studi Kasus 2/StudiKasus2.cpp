@@ -68,33 +68,28 @@ int main()
         cout << "\nError : Gender yang anda inputkan tidak valid";
     }
 
-    /* 
-    //! Input menggunakan String == Masih error ==
     string Status;
     string Gender;
-
     cout << "\nLaki laki\n";
     cout << "Perempuan\n";
     cout << "\nPilih Gender anda : ";
-    cin >> Gender;
-
-    if (Gender.find("Laki laki"))
+    getline(::cin, Gender);
+    if (Gender == "Laki laki")
     {
         cout << "\nLaki laki belum menikah\n";
         cout << "Laki laki sudah menikah\n";
         cout << "Suami mempunyai anak\n";
         cout << "\nPilih Status anda : ";
-        cin >> Status;
-
-        if (Status.find("Laki laki belum menikah"))
+        getline(::cin, Status);
+        if (Status == "Laki laki belum menikah")
         {
             cout << "\n=== Single ===";
         }
-        else if (Status.find("Laki laki sudah menikah"))
+        else if (Status == "Laki laki sudah menikah")
         {
             cout << "\n=== Seorang Suami ===";
         }
-        else if (Status.find("Suami mempunyai anak"))
+        else if (Status == "Suami mempunyai anak")
         {
             cout << "\n=== Seorang Bapak ===";
         }
@@ -103,23 +98,22 @@ int main()
             "\n Error : Status yang anda inputkan tidak valid";
         }
     }
-    else if (Gender.find("Perempuan"))
+    else if (Gender == "Perempuan")
     {
         cout << "\nPerempuan belum menikah\n";
         cout << "Perempuan sudah menikah\n";
         cout << "Istri mempunyai anak\n";
         cout << "\nPilih Status anda : ";
-        cin >> Status;
-
-        if (Status.find("Perempuan belum menikah"))
+        getline(::cin, Status);
+        if (Status == "Perempuan belum menikah")
         {
             cout << "\n=== Single ===";
         }
-        else if (Status.find("Perempuan sudah menikah"))
+        else if (Status == "Perempuan sudah menikah")
         {
             cout << "\n=== Seorang Istri ===";
         }
-        else if (Status.find("Istri mempunyai anak"))
+        else if (Status == "Istri mempunyai anak")
         {
             cout << "\n=== Seorang Ibu ===";
         }
@@ -131,6 +125,5 @@ int main()
     else
     {
         cout << "Error : Gender yang anda inputkan tidak valid";
-    } 
-    */
+    }
 }
