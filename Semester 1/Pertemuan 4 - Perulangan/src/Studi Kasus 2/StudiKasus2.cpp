@@ -68,7 +68,9 @@ int main()
         cout << "\nError : Gender yang anda inputkan tidak valid";
     }
 
-    string Status;
+    //* ===== INPUTAN MENGGUNAKAN STRING =====
+
+    /*    string Status;
     string Gender;
     cout << "\nLaki laki\n";
     cout << "Perempuan\n";
@@ -125,5 +127,5 @@ int main()
     else
     {
         cout << "Error : Gender yang anda inputkan tidak valid";
-    }
+    } */
 }
