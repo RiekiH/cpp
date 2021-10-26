@@ -23,11 +23,11 @@ int main()
         }
         else if (harga >= 200000 && harga <= 299900)
         {
-            cout << "\nTotal Discount :" << (harga * 20 / 200);
+            cout << "\nTotal Discount :" << (harga * 20 / 100);
         }
         else if (harga >= 300000 && harga <= 399900)
         {
-            cout << "\nTotal Discount :" << (harga * 25 / 250);
+            cout << "\nTotal Discount :" << (harga * 25 / 100);
         }
         else
         {
@@ -46,11 +46,11 @@ int main()
         }
         else if (harga >= 200000 && harga <= 299900)
         {
-            cout << "\nTotal Payment :" << (harga - harga * 20 / 200) << "\n";
+            cout << "\nTotal Payment :" << (harga - harga * 20 / 100) << "\n";
         }
         else if (harga >= 300000 && harga <= 399900)
         {
-            cout << "\nTotal Payment :" << (harga - harga * 25 / 250) << "\n";
+            cout << "\nTotal Payment :" << (harga - harga * 25 / 100) << "\n";
         }
         else
         {
